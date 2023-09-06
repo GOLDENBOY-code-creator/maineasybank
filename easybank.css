@@ -1,0 +1,406 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(bg-intro-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: 450px -200px;
+  height: 3000px;
+ 
+
+}
+
+.headies{
+  position: relative;
+  padding-top: 10px;
+  display: flex;
+  height: 60px;
+  background-color: white;
+}
+.logo{
+overflow: clip;
+width: 170px;
+height: 20px;
+margin-left: 10px;
+margin-top: 8px;
+
+}
+
+.navvy{
+  display: flex;
+ margin-left: 300px;
+ 
+}
+.navi{
+  list-style: none;
+  margin: 10px;
+  font-size: 13px;
+ 
+}
+.aaa{
+  text-decoration: none;
+  color: grey;
+}
+.aaa:hover{
+ color: pink;
+}
+.request-button{
+margin-left: 200px;
+font-size: 10px;
+font-weight: bold;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: white;
+margin-left: 500px;
+width: 150px;
+height: 30px;
+border-radius: 50px;
+border: none;
+background-image: linear-gradient( rgb(69, 219, 69), rgb(38, 183, 232));
+}    
+.request-button:hover{
+cursor: pointer;
+background-image: linear-gradient(purple,pink);
+transform: scale(1.2);
+}
+
+.wrapper-2{
+display: flex;
+overflow: hidden;
+}
+.right-images{
+float: right;
+margin-top: -100px;
+margin-left: 200px;
+
+}
+.left{
+margin-top: 150px;
+margin-left: 60px;
+ }
+ .left-h1{
+  width: 450px;
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 10px;
+  margin-left: 80px;
+}
+.left-p{
+  color: grey;
+  font-size: 13px;
+  line-height: 20px;
+  width: 350px;
+  margin-bottom: 10px;
+  margin-left: 80px;
+}
+.left-button{
+margin-top: 5px;
+font-weight: bold;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: white;
+width: 150px;
+height: 30px;
+border-radius: 50px;
+border: none;
+background-image: linear-gradient( rgb(69, 219, 69), rgb(38, 183, 232));
+margin-left: 80px;
+}    
+
+.left-button:hover{
+cursor: pointer;
+background-image: linear-gradient(purple,pink);
+transform: scale(1.2);
+}
+
+.con-3{
+margin-top: -300px;
+padding: 25px;
+height: 500px;
+background-color: rgb(227, 227, 227)
+}
+
+.part3-h1{
+  width: 450px;
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 25px;
+  margin-left: 100px;
+  font-weight: 100;
+  margin-top: 40px;
+}
+.part3-p{
+color: grey;
+  font-size: 13px;
+  line-height: 20px;
+  width: 450px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+}
+
+.images-forum{
+display: flex;
+margin-top: 60px;
+margin-left: 100px;
+}
+.image-2{
+margin:10px;
+
+}
+
+.forum-p{
+width:265px;
+font-size: medium;
+color:grey;
+margin: 10px;
+}
+.foreum-h2{
+margin: 10px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.bottom{
+height: 500px;
+width: 1400px;
+background-color:#FAFAFA;
+padding: 40px;
+}
+
+.article{
+font-size: 30px;
+font-family: 'Montserrat', sans-serif;
+margin-left: 100px;
+
+}
+
+.frame-image{
+width:250px;
+height: 200px;
+margin-top: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+transition: 3s;
+background-color: white;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.frame-images:hover{
+filter: drop-shadow(10px 10px 4px #ffffff);
+
+}
+.frames{
+display: flex;
+align-items: center;
+margin-left: 100px;
+margin-top: 30px;
+
+}
+.frames:hover{
+
+}
+.frames-1{
+padding: 10px;
+border: 3px solid rgb(149, 14, 14);
+width: 280px;
+background-color: white;
+}
+.frame-1:hover{
+transform: scale(1.1);
+}
+
+.frame-p{
+width: 250px;
+line-height: 25px;
+color: grey;
+font-size: 11px;
+}
+h3{
+width: 205px;
+font-size: 12px;
+font-weight: 700;
+
+}
+
+.author{
+color: grey;
+margin-top: 5px;
+margin-bottom: 5px;
+font-size: 10px;
+width: 100px;
+}
+.frame-2{
+margin-left: 20px;
+}
+.frame-2:hover{
+transform: scale(1.1);
+}
+.frame-3{
+margin-left: 20px;
+}
+.frame-3:hover{
+transform: scale(1.1);
+}
+.frame-4{
+margin-left: 20px;
+
+}
+.frame-4:hover{
+transform: scale(1.1);
+}
+
+.frame-info{
+border: 2px solid white;
+background-color: white;
+margin-top: -5px;
+width: 250px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+.frame-info:hover{
+cursor: pointer;
+filter: drop-shadow(10px 10px 4px #ffffff);
+}
+
+.final{
+display: flex;
+background-color: #2D314D;
+height: 150px;
+}
+
+.left-ending{
+display: flex;
+flex-direction: column;
+width: 300px;
+height: 150px;
+
+align-items: center;
+padding: 30px;
+
+}
+
+.middle-ending{
+display: flex;
+width: 300px;
+height: 150px;
+
+margin-left: 200px;
+}
+.logo-frame{
+margin-left: 100px;
+}
+.logo-photo-2{
+display: block;
+margin-bottom: 40px;
+filter: brightness(0) invert(1);
+
+}
+.font-frame{
+display: flex;
+margin-left: 100px;
+}
+.font-awesome-2{
+display: flex;
+color: white;
+filter: brightness(0) invert(1);
+
+}
+.font-awesome-2:hover{
+transform: scale(1.1);
+}
+
+.fr-icon{
+font-size: 20px;
+list-style: none;
+margin: 7px;
+color: white;
+}
+.navy-middle{
+display: flex;
+}
+.navi-middle-1{
+display: flex;
+flex-direction: column;
+
+}
+.ul-middle-1{
+padding: 10px;
+display: flex;
+flex-direction: column;
+}
+.ul-middle-2{
+padding: 10px;
+display: flex;
+flex-direction: column;
+margin-left: 50px;
+
+}
+.li-middle-1{
+list-style: none;
+color: white;
+margin: 10px;
+}
+.li-middle-2{
+list-style: none;
+color: white;
+margin: 10px;
+}
+
+.a-middle{
+text-decoration: none;
+color: white;
+font-size: 15px;
+font-family:sans-serif;
+}
+.a-middle:hover{
+text-decoration: underline;
+color: pink;
+}
+
+.right-ending{
+padding: 20px;
+display: flex;
+flex-direction: column;
+width: 300px;
+height: 200;
+margin-left: 150px;
+
+
+}
+
+.endind-button{
+display: flex;
+
+}
+.ending-butt{
+margin-left: 80px;
+font-size: 10px;
+font-weight: bold;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: white;
+width: 150px;
+height: 30px;
+border-radius: 50px;
+border: none;
+background-image: linear-gradient( rgb(69, 219, 69), rgb(38, 183, 232));
+margin-bottom: 50px;     
+}
+.ending-butt:hover{
+cursor: pointer;
+background-image: linear-gradient(purple,pink);
+transform: scale(1.2);
+}
+.ending-h3{
+color: white;
+margin: 5px;
+font-size: 14px;
+font-weight: 300;
+font-family:sans-serif;
+color: #9698a6
+
+
+}
+
+.fa-copyright{
+font-size: medium;
+color: #9698a6;
+
+}
